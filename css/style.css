@@ -1,0 +1,244 @@
+
+
+
+.bgcolor.scrolled{
+background-color: rgba(0, 0, 0, 0.6);
+
+}
+
+nav{
+  background:black;
+}
+ul li.li a:after{
+  content:"";
+
+  	display:block;
+  	background-color:white;
+  	width:0;
+  	height:2px;
+
+
+  	transition:width .7s;
+
+}
+ul li.li a:hover::after{
+width:100%;
+transition:width .7s;
+
+}
+
+.slider img{
+
+height:100%;
+width:100%;
+}
+.service-section{
+
+height: 600px;
+
+}
+.provider-section{
+
+height:230px;
+padding-top:50px;
+
+}
+.provider-section hr{
+
+margin:auto;
+  margin-bottom:15px;
+  height:4px;
+  width:150px;
+}
+.service-section .provider-section p{
+margin-bottom: 3px;
+margin-top:1px;
+font-family:tahoma;
+font-size:20px;
+}
+.dev-section{
+height:300px;
+width:100%;
+margin-top:40px;
+
+}
+.dev-section img{
+margin-left:60px;
+
+}
+.dev-section h1,
+.dev-section p{
+text-align:center;
+margin-top:10px;
+}
+
+.skills{
+
+height: 500px;
+
+
+}
+.skills .skill-des{
+  padding-top:60px;
+text-align:center;
+
+}
+.skills .skill-des h1{
+  font-size:35px;
+}
+.skills .skill-des hr{
+
+margin:auto;
+  margin-bottom:15px;
+  height:4px;
+  width:120px;
+}
+.skills .skill-des p.details:first-child{
+margin-bottom:0px;
+
+}
+
+.percentage-des .chart{
+margin-top:18px;
+display:inline-block;
+
+}
+section.team-member{
+background-color: #e7f1f8;
+height:660px;
+color:#3c4761;
+}
+section.team-member .team-des{
+text-align: center;
+padding-top: 80px;
+
+}
+section.team-member .team-des hr{
+  margin:auto;
+    margin-bottom:15px;
+    height:4px;
+    width:120px;
+
+
+}
+.team-profile .single-mem{
+text-align:center;
+margin-left:22px;
+margin-top:10px;
+background: white;
+border:1px solid white;
+padding:20px;
+border-radius:10px;
+cursor:pointer;
+}
+
+section.portfolio{
+
+height:600px;
+background-color:#ffdd99;
+color:#393939;
+
+
+}
+section.portfolio .portfolio-des{
+text-align:center;
+padding-top:60px;
+
+}
+
+section.portfolio .portfolio-des hr{
+  margin:auto;
+    margin-bottom:15px;
+    height:4px;
+    width:120px;
+
+}
+
+ul.button-mixitup li{
+border:1px solid white;
+margin-top:20px;
+margin-right:25px;
+}
+
+ul.button-mixitup li:hover{
+
+background-color:white;
+
+
+}
+
+.portfolio-icon img{
+
+width:320px;
+height:170px;
+
+}
+.contained{
+cursor:pointer;
+
+}
+.portfolio-icon .option{
+
+padding-top:20px;
+
+}
+.portfolio-icon button{
+height:60px;
+width:200px;
+color:white;
+background:#17c2a4;
+font-size:20px;
+border:1px solid #17c2a4;
+}
+.portfolio-icon button:hover{
+background-color: transparent;
+color:#17c2a4;
+transition:.6s;
+
+}
+section.footer{
+
+background-color: #344b8e;
+height:70px;
+}
+section.footer ul{
+padding-top:20px;
+font-weight: bold;
+margin:auto;
+}
+section.footer ul li{
+
+margin-right: 30px;
+cursor:pointer;
+
+}
+@media all and (max-width:991px){
+
+  .service-section{
+
+  height: 870px;
+
+  }
+
+  .skills{
+
+  height: 610px;
+
+
+  }
+
+
+  section.team-member{
+
+  height:700px;
+
+  }
+  section.portfolio{
+
+  height:800px;
+
+
+
+  }
+
+}
